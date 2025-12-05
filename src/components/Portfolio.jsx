@@ -6,19 +6,19 @@ const Portfolio = () => {
   const projects = [
     {
       title: 'Blinkit Data Analysis',
-      image: '/images/blinkit.jpeg',
+      image: './images/blinkit.jpeg',
       tags: ['Power BI', 'Data Analysis', 'Dashboard'],
       link: 'https://github.com/Shreyashvekariya/projects/tree/main/BlinKit-Data-Analysis'
     },
     {
       title: 'Vastra Rent',
-      image: '/images/vastrarent.jpg',
+      image: './images/vastrarent.jpg',
       tags: ['HTML', 'CSS', 'Java Script'],
       link: 'https://github.com/shreyashvekariya/VASTRA-RENT'
     },
     {
       title: 'friendship day',
-      image: '/images/frndship.jpg',
+      image: './images/frndship.jpg',
       tags: ['front-end dev'],
       link: 'https://github.com/shreyashvekariya/friendship'
     },

@@ -74,7 +74,7 @@ const About = () => {
           </div>
           <div className="about-image">
             <img 
-              src="/images/WhatsApp Image 2025-07-23 at 23.38.08_beee562f.jpg"
+              src="./images/WhatsApp Image 2025-07-23 at 23.38.08_beee562f.jpg"
               alt="Workspace" 
               className="workspace-image"
               onMouseEnter={handleImageHover}

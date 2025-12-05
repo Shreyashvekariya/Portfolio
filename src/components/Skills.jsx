@@ -357,19 +357,19 @@ const Skills = () => {
             <CertificateCard
               title="Introduction to Internet of Things"
               description="Completed a 12-week IIT-led course covering IoT architecture, sensors, communication models, and real-world applications. Demonstrated strong understanding through assignments and a proctored exam with an overall elite score."
-              image="/images/IOT.jpeg"
+              image="./images/IOT.jpeg"
               link="https://drive.google.com/file/d/1rQ80t11G3fb5Zjh2wMgroZtkztD-LOBe/view?usp=sharing"
             />
             <CertificateCard
               title="Data Analysis and Visualization Foundations"
               description="Gained hands-on skills in data analysis, Excel-based reporting, and creating interactive dashboards using IBM Cognos Analytics. Built visualizations like treemaps, scatter charts, histograms, and pivot tables to interpret complex datasets."
-              image="/images/DAV.jpeg"
+              image="./images/DAV.jpeg"
               link="https://drive.google.com/file/d/1B7qcrsH0lpVQMrDLtL_STcbeI_uK5mmc/view?usp=sharing"
             />
             <CertificateCard
               title="Generative AI For Data Analyst"
               description="Mastered generative AI fundamentals and tools such as DALL·E, Stable Diffusion, and ChatGPT, along with prompt-engineering techniques. Learned to apply AI models for data insights, automation, and enhanced analytics workflows."
-              image="/images/GENai.jpeg"
+              image="./images/GENai.jpeg"
               link="https://drive.google.com/file/d/1sgQJmO-rqiTpF-rU0SqB0JnqDHTS2u9m/view?usp=sharing"
             />
           </div>
