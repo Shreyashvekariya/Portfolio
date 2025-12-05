@@ -1,0 +1,38 @@
+/* Browser Compatibility Styles */
+
+/* IE 11 and Edge Legacy Support */
+@supports (-ms-ime-align: auto) {
+  .grid-container {
+    display: -ms-grid;
+  }
+}
+
+/* Safari-specific fixes */
+@supports (-webkit-appearance: none) {
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    -webkit-appearance: none;
+  }
+}
+
+/* Firefox-specific fixes */
+@-moz-document url-prefix() {
+  .floating-skill {
+    image-rendering: -moz-crisp-edges;
+  }
+}
+
+/* Chrome/Edge specific optimizations */
+@supports (-webkit-backdrop-filter: blur(10px)) {
+  .backdrop-blur {
+    -webkit-backdrop-filter: blur(10px);
+  }
+}
+
+/* Ensure smooth animations across browsers */
+* {
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
